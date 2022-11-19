@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
     owner = "oneapi-src";
     repo = "oneDNN";
     rev = "v${version}";
-    sha256 = "sha256-HBCuSZkApd/6UkAxz/KDFb/gyX2SI1S2GwgXAXSTU/c=";
+    sha256 = "sha256-HHHHHHHHH/6UkAxz/KDFb/gyX2SI1S2GwgXAXSTU/c=";
   };
 
   outputs = [ "out" "dev" "doc" ];
