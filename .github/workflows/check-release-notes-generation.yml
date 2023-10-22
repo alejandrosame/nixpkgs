@@ -1,0 +1,34 @@
+name: "Checking EditorConfig"
+
+permissions: read-all
+
+on:
+  # avoids approving first time contributors
+  pull_request_target:
+    branches-ignore:
+      - 'release-**'
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.pull_request.title, '[skip treewide]')"
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        # pull_request_target checks out the base branch by default
+        ref: refs/pull/${{ github.event.pull_request.number }}/merge
+    - uses: cachix/install-nix-action@v23
+      with:
+        # nixpkgs commit is pinned so that it doesn't break
+        # diffutils 3.9.0
+        nix_path: nixpkgs=https://github.com/NixOS/nixpkgs/archive/4ecab3273592f27479a583fb6d975d4aba3486fe.tar.gz
+    - name: Generate release notes
+      run : |
+        cd nixos/doc/manual
+        nix-build release-notes/rl-2311/utils/generate-release-notes.nix   
+    - name: Diff generated release notes
+      run: |
+        diff release-notes/rl-2311/rl-2311.section.md result/rl-2311.section.md
+    - if: ${{ failure() }}
+      run: |
+        echo "::error :: Release notes could not be regenerated correctly. Fix it to make a smooth transition."
