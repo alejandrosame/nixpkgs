@@ -5,8 +5,7 @@ permissions: read-all
 on:
   # avoids approving first time contributors
   pull_request_target:
-    branches-ignore:
-      - 'release-**'
+    branches: [ master ]
 
 jobs:
   tests:
