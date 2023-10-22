@@ -1,10 +1,6 @@
 name: "Checking release notes generator script"
 
-permissions: read-all
-
-on:
-  # avoids approving first time contributors
-  pull_request_target
+permissions: { }
 
 jobs:
   tests:
