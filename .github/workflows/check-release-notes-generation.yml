@@ -3,11 +3,7 @@ name: "Check release notes generation"
 permissions: read-all
 
 on:
-  pull_request_target:
-    branches:
-      - '*'
-    paths:
-      - 'nixos/**'
+  workflow_dispatch
 
 jobs:
   tests:
