@@ -1,5 +1,10 @@
 name: "Checking release notes generator script"
 
+on:
+  # avoids approving first time contributors
+  pull_request_target:
+    branches: [ master ]
+
 permissions: { }
 
 jobs:
