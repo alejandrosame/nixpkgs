@@ -5,7 +5,7 @@ permissions: read-all
 on:
   pull_request_target:
     branches:
-      - master
+      - [ master, 'rl-*' ] 
 
 jobs:
   tests:
