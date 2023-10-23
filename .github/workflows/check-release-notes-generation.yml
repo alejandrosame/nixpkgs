@@ -1,11 +1,11 @@
-name: "Checking release notes generator script"
+name: "Check release notes generation"
 
 permissions: read-all
 
 on:
   pull_request_target:
     branches:
-      - master
+      - '*'
     paths:
       - 'nixos/**'
 
