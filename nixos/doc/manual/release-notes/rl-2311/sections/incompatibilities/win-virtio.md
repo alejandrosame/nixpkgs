@@ -1,0 +1,1 @@
+- `win-virtio` package was renamed to `virtio-win` to be consistent with the upstream package name.

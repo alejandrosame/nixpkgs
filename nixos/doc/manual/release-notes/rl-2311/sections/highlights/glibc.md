@@ -1,0 +1,1 @@
+- [glibc](https://www.gnu.org/software/libc/) has been updated from version 2.37 to 2.38, see [the release notes](https://sourceware.org/glibc/wiki/Release/2.38) for what was changed.

@@ -1,0 +1,1 @@
+- Cassandra now defaults to 4.x, updated from 3.11.x.

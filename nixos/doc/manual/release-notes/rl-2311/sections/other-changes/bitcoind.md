@@ -1,0 +1,1 @@
+- `services.bitcoind` now properly respects the `enable` option.

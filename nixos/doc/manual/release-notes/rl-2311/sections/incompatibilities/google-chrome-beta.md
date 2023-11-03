@@ -1,0 +1,1 @@
+- `google-chrome-beta` and `google-chrome-dev` have been removed due to the lack of maintenance in nixpkgs. Consider using `google-chrome` instead.

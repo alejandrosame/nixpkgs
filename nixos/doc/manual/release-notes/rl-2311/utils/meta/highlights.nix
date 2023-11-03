@@ -1,10 +1,14 @@
 [
   "foundation.md"
+  "postgresql.md"
   "hostapd.md"
   "lxd.md"
   "nixos-rebuild.md"
   "systemd.md"
   "sudo-rs.md"
+  "glibc.md"
+  "sudo-rs2.md"  
   "rocm.md"
   "users.md"
+  "cassandra.md"
 ]

@@ -1,0 +1,1 @@
+- The `prometheus-knot-exporter` was migrated to a version maintained by CZ.NIC. Various metric names have changed, so checking existing rules is recommended.

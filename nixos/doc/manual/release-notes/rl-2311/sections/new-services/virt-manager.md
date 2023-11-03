@@ -1,0 +1,1 @@
+- [virt-manager](https://virt-manager.org/), an UI for managing virtual machines in libvirt, is now available as `programs.virt-manager`.

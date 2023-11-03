@@ -7,4 +7,5 @@
   "qemu-vm_nix2.md"
   "electron.md"
   "teleport.md"
+  "msr.md"
 ]

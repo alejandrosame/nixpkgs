@@ -1,0 +1,1 @@
+- `services.outline` can now be configured to use local filesystem storage instead of S3 storage using [services.outline.storage.storageType](#opt-services.outline.storage.storageType).

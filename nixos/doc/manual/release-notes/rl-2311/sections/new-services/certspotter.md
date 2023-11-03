@@ -1,0 +1,1 @@
+- [certspotter](https://github.com/SSLMate/certspotter), a certificate transparency log monitor. Available as [services.certspotter](#opt-services.certspotter.enable).
