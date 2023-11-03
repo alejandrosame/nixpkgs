@@ -1,0 +1,1 @@
+- `ffmpeg` default upgraded from `ffmpeg_5` to `ffmpeg_6`.

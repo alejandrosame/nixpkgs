@@ -1,0 +1,1 @@
+- `mkDerivation` now rejects MD5 hashes.

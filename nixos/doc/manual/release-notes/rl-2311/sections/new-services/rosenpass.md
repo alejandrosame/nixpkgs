@@ -1,0 +1,1 @@
+- [Rosenpass](https://rosenpass.eu/), a service for post-quantum-secure VPNs with WireGuard. Available as [services.rosenpass](#opt-services.rosenpass.enable).

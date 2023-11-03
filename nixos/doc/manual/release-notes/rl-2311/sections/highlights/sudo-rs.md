@@ -5,5 +5,3 @@
   - terminfo-related environment variables aren't preserved for `root` and `wheel`;
   - `root` and `wheel` are not given the ability to set (or preserve)
     arbitrary environment variables.
-
-[`sudo-rs`]: https://github.com/memorysafety/sudo-rs/
