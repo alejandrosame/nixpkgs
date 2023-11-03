@@ -80,6 +80,7 @@
   "rome.md"
   "prometheus-knot-exporter.md"
   "services_mtr-exporter_target.md"
+  "blender-with-packages.md"
   "nixpkgs_config.md"
   "service_borgmatic_settings_location.md"
   "privacyidea.md"
