@@ -46,9 +46,12 @@
   "boot_bcache_enable.md"
   "services_mbpfan.md"
   "security_sudo.md"
+  "virtualisation-googleComputeImage.md"
   "externalplugins.md"
   "postgresql.md"
   "ffmpeg.md"
   "fusuma.md"
-  "bitcoin.md"
+  "bitcoind.md"
+  "home-assistant.md"
+  "buildGoModule.md"
 ]

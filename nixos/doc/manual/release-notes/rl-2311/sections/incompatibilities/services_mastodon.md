@@ -1,0 +1,1 @@
+- `services.mastodon` doesn't support providing a TCP port to its `streaming` component anymore, as upstream implemented parallelization by running multiple instances instead of running multiple processes in one instance. Please create a PR if you are interested in this feature.

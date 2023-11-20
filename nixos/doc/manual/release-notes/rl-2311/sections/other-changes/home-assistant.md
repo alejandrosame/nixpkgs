@@ -1,0 +1,1 @@
+- The Home Assistant module now offers support for installing custom components and lovelace modules. Available at [`services.home-assistant.customComponents`](#opt-services.home-assistant.customComponents) and [`services.home-assistant.customLovelaceModules`](#opt-services.home-assistant.customLovelaceModules).

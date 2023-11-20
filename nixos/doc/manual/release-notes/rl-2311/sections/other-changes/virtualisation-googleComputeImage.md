@@ -1,0 +1,1 @@
+- `virtualisation.googleComputeImage` now provides `efi` option to support UEFI booting.
