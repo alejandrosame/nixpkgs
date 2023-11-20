@@ -1,4 +1,5 @@
 [
+  "nodejs-14-16.md"
   "unpackphase.md"
   "django.md"
   "qemu-vm_nix1.md"
@@ -8,4 +9,6 @@
   "electron.md"
   "teleport.md"
   "msr.md"
+  "docker.md"
+  "testing-initrdBackdoor.md"
 ]

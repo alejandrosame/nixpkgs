@@ -1,0 +1,3 @@
+- Node.js v14, v16 has been removed as they were end of life. Any dependent packages that contributors were not able to reasonably upgrade were dropped after a month of notice to their maintainers, were **removed**.
+  - This includes VSCode Server.
+  - This includes Kibana 7 as the ELK stack is unmaintained in nixpkgs and is marked for slow removal.

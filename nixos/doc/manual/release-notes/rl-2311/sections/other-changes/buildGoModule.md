@@ -1,0 +1,1 @@
+- The argument `vendorSha256` of `buildGoModule` is deprecated. Use `vendorHash` instead. ([\#259999](https://github.com/NixOS/nixpkgs/pull/259999))
