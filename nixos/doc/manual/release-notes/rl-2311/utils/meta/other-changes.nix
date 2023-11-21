@@ -58,4 +58,9 @@
   "buildGoModule.md"
   "tex-live.md"
   "wxGTK32.md"
+  "hostapd.md"
+  "lxd.md"
+  "nixos-rebuild.md"
+  "sudo-rs.md"
+  "sudo-rs2.md"
 ]

@@ -2,11 +2,11 @@
   rl-filename = "rl-2311.section.md";
   title = "# Release 23.11 (“Tapir”, 2023.11/??) {#sec-release-23.11}";
   sections = [
-    rec {
-      id = "highlights";
-      title = "## Highlights {#sec-release-23.11-highlights}";
-      meta = import (./. + "/${id}.nix");
-    }
+    #rec {
+    #  id = "highlights";
+    #  title = "## Highlights {#sec-release-23.11-highlights}";
+    #  meta = import (./. + "/${id}.nix");
+    #}
     rec {
       id = "new-services";
       title = "## New Services {#sec-release-23.11-new-services}";

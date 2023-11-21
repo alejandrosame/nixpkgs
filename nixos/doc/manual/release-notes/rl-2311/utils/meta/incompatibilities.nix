@@ -102,4 +102,13 @@
   "prayer.md"
   "chrony.md"
   "trilum-desktop.md"
+  "cassandra.md"
+  "foundation.md"
+  "glibc.md"
+  "linuxPackages-testing-bcachefs.md"
+  "postgresql.md"
+  "rocm.md"
+  "systemd.md"
+  "users.md"
+  "yarn-berry.md"
 ]
