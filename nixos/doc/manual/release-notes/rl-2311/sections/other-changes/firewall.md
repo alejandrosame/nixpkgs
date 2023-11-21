@@ -1,0 +1,1 @@
+- The iptables firewall module now installs the `nixos-firewall-tool` which allows the user to easily temporarily open ports through the firewall.

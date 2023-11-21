@@ -7,6 +7,7 @@
   "services_searx.md"
   "jq.md"
   "zfs.md"
+  "firewall.md"
   "elixir.md"
   "virtualisation_vlans.md"
   "docbook.md"
@@ -54,4 +55,5 @@
   "bitcoind.md"
   "home-assistant.md"
   "buildGoModule.md"
+  "tex-live.md"
 ]
