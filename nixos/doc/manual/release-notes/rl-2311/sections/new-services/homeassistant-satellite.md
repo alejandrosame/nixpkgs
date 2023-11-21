@@ -1,1 +1,1 @@
-- [Home Assistant Satellite], a streaming audio satellite for Home Assistant voice pipelines, where you can reuse existing mic/speaker hardware. Available as [services.homeassistant-satellite](#opt-services.homeassistant-satellite.enable).
+- [Home Assistant Satellite](https://github.com/synesthesiam/homeassistant-satellite), a streaming audio satellite for Home Assistant voice pipelines, where you can reuse existing mic/speaker hardware. Available as [services.homeassistant-satellite](#opt-services.homeassistant-satellite.enable).
