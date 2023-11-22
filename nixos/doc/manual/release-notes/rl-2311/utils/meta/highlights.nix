@@ -1,6 +1,7 @@
 [
   "foundation.md"
   "postgresql.md"
+  "gnome.md"
   "hostapd.md"
   "lxd.md"
   "nixos-rebuild.md"

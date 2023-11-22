@@ -8,6 +8,7 @@
   "services_mastodon.md"
   "services_hostapd.md"
   "python3_pkgs_fetchpypi.md"
+  "xdg-desktop-portal.md"
   "pass.md"
   "services_knot.md"
   "mu.md"
@@ -98,4 +99,5 @@
   "junicode.md"
   "prayer.md"
   "chrony.md"
+  "trilum-desktop.md"
 ]

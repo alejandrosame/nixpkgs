@@ -56,4 +56,5 @@
   "home-assistant.md"
   "buildGoModule.md"
   "tex-live.md"
+  "wxGTK32.md"
 ]

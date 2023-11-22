@@ -1,0 +1,1 @@
+- GNOME has been updated to version 45, see the [release notes](https://release.gnome.org/45/) for details. Notably, Loupe has replaced Eye of GNOME as the default image viewer, Snapshot has replaced Cheese as the default camera application, and Photos will no longer be installed.

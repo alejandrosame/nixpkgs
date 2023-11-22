@@ -1,0 +1,1 @@
+- In `wxGTK32`, the webkit module `wxWebView` has been enabled on all builds; prior releases only enabled this on Darwin.
