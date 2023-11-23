@@ -7,6 +7,7 @@
   "wayfire.md"
   "mautrix-whatsapp.md"
   "hddfancontrol.md"
+  "seatd.md"
   "gotosocial.md"
   "castopod.md"
   "typesense.md"

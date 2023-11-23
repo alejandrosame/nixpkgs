@@ -10,6 +10,7 @@
   "firewall.md"
   "elixir.md"
   "virtualisation_vlans.md"
+  "singularity.md"
   "docbook.md"
   "outline.md"
   "paperwork.md"
