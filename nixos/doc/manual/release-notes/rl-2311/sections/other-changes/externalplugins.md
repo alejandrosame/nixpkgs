@@ -1,4 +1,4 @@
-- CoreDNS can now be built with external plugins by overriding `externalPlugins` and `vendorHash` arguments like this:
+- CoreDNS may be built with external plugins now. This may be done by overriding `externalPlugins` and `vendorHash` arguments like this:
 
   ```
   services.coredns = {

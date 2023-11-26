@@ -1,1 +1,1 @@
-- `virtualisation.googleComputeImage` now provides `efi` option to support UEFI booting.
+- `virtualisation.googleComputeImage` provides a `efi` option to support UEFI booting now.

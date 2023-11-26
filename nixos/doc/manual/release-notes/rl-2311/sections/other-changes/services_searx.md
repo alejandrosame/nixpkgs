@@ -1,1 +1,1 @@
-- New options were added to `services.searx` for better SearXNG support, including options for the built-in rate limiter and bot protection and automatically configuring a local redis server.
+- `services.searx` receives new options for better SearXNG support. This includes options for the built-in rate limiter, bot protection and automatically configuring a local Redis server.

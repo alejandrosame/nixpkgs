@@ -1,1 +1,1 @@
-- `ffmpeg` default upgraded from `ffmpeg_5` to `ffmpeg_6`.
+- `ffmpeg` defaults to `ffmpeg_6` now, upgrading from `ffmpeg_5`.

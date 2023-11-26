@@ -1,1 +1,1 @@
-- `dockerTools.buildImage`, `dockerTools.buildLayeredImage` and `dockerTools.streamLayeredImage` now use `lib.makeOverridable` to allow `dockerTools`-based images to be customized more efficiently at the nix-level.
+- `dockerTools.buildImage`, `dockerTools.buildLayeredImage` and `dockerTools.streamLayeredImage` use `lib.makeOverridable` now . This allows `dockerTools`-based images to be customized more efficiently at the Nix level.

@@ -1,1 +1,1 @@
-- `pkgs.openvpn3` now optionally supports systemd-resolved. `programs.openvpn3` will automatically enable systemd-resolved support if `config.services.resolved.enable` is enabled.
+- `pkgs.openvpn3` optionally supports systemd-resolved now. `programs.openvpn3` will automatically enable systemd-resolved support if `config.services.resolved.enable` is set to true.
