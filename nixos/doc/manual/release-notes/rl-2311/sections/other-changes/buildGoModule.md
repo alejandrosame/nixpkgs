@@ -1,1 +1,1 @@
-- The argument `vendorSha256` of `buildGoModule` is deprecated. Use `vendorHash` instead. ([\#259999](https://github.com/NixOS/nixpkgs/pull/259999))
+- The argument `vendorSha256` of `buildGoModule` is deprecated. Use `vendorHash` instead. Refer to [PR \#259999](https://github.com/NixOS/nixpkgs/pull/259999)) for more details.

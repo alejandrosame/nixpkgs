@@ -1,1 +1,1 @@
-- The module `services.mbpfan` now has the option `aggressive` enabled by default for better heat moderation. You can disable it for upstream defaults.
+- The `services.mbpfan` module has the option `aggressive` enabled by default now. This is for better heat moderation. To get the upstream defaults you may disable this.

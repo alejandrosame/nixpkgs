@@ -1,1 +1,1 @@
-- Cloud support in the `netdata` package is now disabled by default. To enable it use the `netdataCloud` package.
+- The `netdata` package disables cloud support by defaul nowt. To enable it use the `netdataCloud` package.

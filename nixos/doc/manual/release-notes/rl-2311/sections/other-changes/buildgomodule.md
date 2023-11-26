@@ -1,1 +1,1 @@
-- `buildGoModule` `go-modules` attrs have been renamed to `goModules`.
+- `go-modules` in `buildGoModule` attrs has been renamed to `goModules`.
