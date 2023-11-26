@@ -49,4 +49,5 @@
   "soft-serve.md"
   "rosenpass.md"
   "c2fmzq.md"
+  "preload.md"
 ]

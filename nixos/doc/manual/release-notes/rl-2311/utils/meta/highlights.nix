@@ -8,7 +8,6 @@
   "systemd.md"
   "sudo-rs.md"
   "glibc.md"
-  "sudo-rs2.md"
   "linuxPackages-testing-bcachefs.md"
   "rocm.md"
   "yarn-berry.md"

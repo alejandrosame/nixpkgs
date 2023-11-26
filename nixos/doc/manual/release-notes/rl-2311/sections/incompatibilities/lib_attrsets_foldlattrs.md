@@ -1,1 +1,0 @@
-- [`lib.attrsets.foldlAttrs`](https://nixos.org/manual/nixpkgs/stable#function-library-lib.attrsets.foldlAttrs) now always evaluates the initial accumulator argument first.

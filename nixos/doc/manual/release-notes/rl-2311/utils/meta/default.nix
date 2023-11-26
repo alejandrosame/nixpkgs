@@ -27,5 +27,10 @@
       title = "## Nixpkgs internals {#sec-release-23.11-nixpkgs-internals}";
       meta = import (./. + "/${id}.nix");
     }
+    rec {
+      id = "nixpkgs-lib";
+      title = "## Nixpkgs library changes {#sec-release-23.11-lib}";
+      meta = import (./. + "/${id}.nix");
+    }
   ];
 }
