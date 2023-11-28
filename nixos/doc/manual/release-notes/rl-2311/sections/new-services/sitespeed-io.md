@@ -1,1 +1,1 @@
-- [sitespeed-io](https://sitespeed.io), a tool that can generate metrics (timings, diagnostics) for websites. Available as [services.sitespeed-io](#opt-services.sitespeed-io.enable).
+- [sitespeed-io](https://sitespeed.io), a tool that can generate metrics such as timings and diagnostics for websites. Available as [services.sitespeed-io](#opt-services.sitespeed-io.enable).

@@ -1,1 +1,1 @@
-- [NNCP](http://www.nncpgo.org/). Added nncp-daemon and nncp-caller services. Configuration is set with [programs.nncp.settings](#opt-programs.nncp.settings) and the daemons are enabled at [services.nncp](#opt-services.nncp.caller.enable).
+- [NNCP](http://www.nncpgo.org/), nncp-daemon and nncp-caller services. Available as [programs.nncp.settings](#opt-programs.nncp.settings) and [services.nncp](#opt-services.nncp.caller.enable).
