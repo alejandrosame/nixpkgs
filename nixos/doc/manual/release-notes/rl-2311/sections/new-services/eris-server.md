@@ -1,0 +1,1 @@
+- [eris-server](https://codeberg.org/eris/eris-go), an implementation of the Encoding for Robust Immutable Storage (ERIS). Available as [services.eris-server](#opt-services.eris-server.enable).

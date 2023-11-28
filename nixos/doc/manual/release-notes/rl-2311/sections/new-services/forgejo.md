@@ -1,0 +1,1 @@
+- [forgejo](https://forgejo.org/), a git forge and drop-in replacement for Gitea. Available as [services.forgejo](#opt-services.forgejo.enable).
