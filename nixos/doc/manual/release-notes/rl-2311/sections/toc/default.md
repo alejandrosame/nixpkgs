@@ -1,1 +1,10 @@
-Here goes the TOC.
+- [NixOS](#sec-release-23.11-nixos)
+  - [Breaking Changes](#sec-release-23.11-nixos-breaking-changes)
+  - [New Services](#sec-release-23.11-nixos-new-services)
+  - [Other Notable Changes](#sec-release-23.11-nixos-notable-changes)
+- [Nixpkgs](#sec-release-23.11-nixpkgs)
+  - [Nixpkgs library changes](#sec-release-23.11-nixpkgs-lib)
+    - [Breaking changes](#sec-release-23.11-lib-breaking)
+    - [Additions and improvements](#sec-release-23.11-lib-additions-improvements)
+    - [Deprecations](#sec-release-23.11-lib-deprecations)
+  - [Nixpkgs internals](#sec-release-23.11-nixpkgs-internals)
