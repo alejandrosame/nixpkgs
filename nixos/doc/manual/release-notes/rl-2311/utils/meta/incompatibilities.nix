@@ -111,4 +111,5 @@
   "systemd.md"
   "users.md"
   "yarn-berry.md"
+  "gnome.md"
 ]

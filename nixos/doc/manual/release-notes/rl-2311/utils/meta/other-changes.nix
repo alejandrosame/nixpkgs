@@ -53,7 +53,6 @@
   "postgresql.md"
   "ffmpeg.md"
   "fusuma.md"
-  "bitcoind.md"
   "home-assistant.md"
   "buildGoModule.md"
   "tex-live.md"
@@ -62,5 +61,4 @@
   "lxd.md"
   "nixos-rebuild.md"
   "sudo-rs.md"
-  "sudo-rs2.md"
 ]

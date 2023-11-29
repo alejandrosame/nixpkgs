@@ -8,28 +8,48 @@
     #  meta = import (./. + "/${id}.nix");
     #}
     rec {
-      id = "new-services";
-      title = "## New Services {#sec-release-23.11-new-services}";
+      id = "intro";
+      title = "";
       meta = import (./. + "/${id}.nix");
     }
     rec {
+      id = "toc";
+      title = "## Table of contents {#sec-release-23.11-toc}";
+      meta = import (./. + "/${id}.nix");
+    }
+    rec {
+      id = "header";
+      title = "## NixOS {#sec-release-23.11-nixos}";
+      meta = [];
+    }
+    rec {
       id = "incompatibilities";
-      title = "## Backward Incompatibilities {#sec-release-23.11-incompatibilities}";
+      title = "### Breaking Changes {#sec-release-23.11-nixos-breaking-changes}";
+      meta = import (./. + "/${id}.nix");
+    }
+    rec {
+      id = "new-services";
+      title = "### New Services {#sec-release-23.11-nixos-new-services}";
       meta = import (./. + "/${id}.nix");
     }
     rec {
       id = "other-changes";
-      title = "## Other Notable Changes {#sec-release-23.11-notable-changes}";
+      title = "### Other Notable Changes {#sec-release-23.11-nixos-notable-changes}";
+      meta = import (./. + "/${id}.nix");
+    }
+    rec {
+      id = "header";
+      title = "## nixpkgs {#sec-release-23.11-nixpkgs}";
+      meta = [];
+    }
+    rec {
+      id = "nixpkgs-lib";
+      title = "### Nixpkgs library changes {#sec-release-23.11-nixpkgs-lib}";
       meta = import (./. + "/${id}.nix");
     }
     rec {
       id = "nixpkgs-internals";
-      title = "## Nixpkgs internals {#sec-release-23.11-nixpkgs-internals}";
-      meta = import (./. + "/${id}.nix");
-    }
-    rec {
-      id = "nixpkgs-lib";
-      title = "## Nixpkgs library changes {#sec-release-23.11-lib}";
+      title = "### Nixpkgs internals {#sec-release-23.11-nixpkgs-internals}";
       meta = import (./. + "/${id}.nix");
     }
   ];

@@ -1,4 +1,4 @@
-### Breaking changes {#sec-release-23.11-lib-breaking}
+#### Breaking changes {#sec-release-23.11-lib-breaking}
 
 - [`lib.lists.foldl'`](https://nixos.org/manual/nixpkgs/unstable#function-library-lib.lists.foldl-prime)
   now always evaluates the initial accumulator argument first.
@@ -10,7 +10,7 @@
   `lib.options.literalDocBook` has been removed after deprecation in 22.11.
 - `lib.types.string` is now fully deprecated and gives a warning when used.
 
-### Additions and improvements {#sec-release-23.11-lib-additions-improvements}
+#### Additions and improvements {#sec-release-23.11-lib-additions-improvements}
 
 - [`lib.fileset`](https://nixos.org/manual/nixpkgs/unstable#sec-functions-library-fileset):
   A new sub-library to select local files to use for sources,
@@ -88,7 +88,7 @@ Module system:
   Not to be confused with `definitionsWithLocations`, which is the same but for option _definitions_.
 - Improved error message for option declarations missing `mkOption`
 
-### Deprecations {#sec-release-23.11-lib-deprecations}
+#### Deprecations {#sec-release-23.11-lib-deprecations}
 
 - `lib.meta.getExe pkg` (also available as `lib.getExe`) now gives a warning if `pkg.meta.mainProgram` is not set,
   but it continues to default to the derivation name.
