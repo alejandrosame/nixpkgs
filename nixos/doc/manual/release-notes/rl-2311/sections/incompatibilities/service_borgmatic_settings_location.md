@@ -1,1 +1,3 @@
-- `service.borgmatic.settings.location` and `services.borgmatic.configurations.<name>.location` are deprecated, please move your options out of sections to the global scope.
+- `service.borgmatic.settings.location` and
+  `services.borgmatic.configurations.<name>.location` are deprecated, please
+  move your options out of sections to the global scope.

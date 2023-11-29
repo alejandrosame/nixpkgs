@@ -1,1 +1,2 @@
-- Package `cloud-sql-proxy` was renamed to `google-cloud-sql-proxy` as it cannot be used with other cloud providers.;
+- Package `cloud-sql-proxy` was renamed to `google-cloud-sql-proxy` as it
+  cannot be used with other cloud providers.

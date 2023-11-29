@@ -1,1 +1,2 @@
-- The `services.mtr-exporter.target` has been removed in favor of `services.mtr-exporter.jobs` which allows specifying multiple targets.
+- The `services.mtr-exporter.target` has been removed in favor of
+  `services.mtr-exporter.jobs` which allows specifying multiple targets.

@@ -1,1 +1,2 @@
-- The binary of the package `cloud-sql-proxy` has changed from `cloud_sql_proxy` to `cloud-sql-proxy`.
+- The binary of the package `cloud-sql-proxy` has changed from
+  `cloud_sql_proxy` to `cloud-sql-proxy`.

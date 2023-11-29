@@ -1,1 +1,2 @@
-- `services.outline.sequelizeArguments` has been removed, as `outline` no longer executes database migrations via the `sequelize` cli.
+- `services.outline.sequelizeArguments` has been removed, as `outline` no
+  longer executes database migrations via the `sequelize` cli.

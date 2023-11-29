@@ -1,1 +1,8 @@
-- X keyboard extension (XKB) options have been reorganized into a single attribute set, `services.xserver.xkb`. Specifically, `services.xserver.layout` is now `services.xserver.xkb.layout`, `services.xserver.extraLayouts` is now `services.xserver.xkb.extraLayouts`, `services.xserver.xkbModel` is now `services.xserver.xkb.model`, `services.xserver.xkbOptions` is now `services.xserver.xkb.options`, `services.xserver.xkbVariant` is now `services.xserver.xkb.variant`, and `services.xserver.xkbDir` is now `services.xserver.xkb.dir`.
+- X keyboard extension (XKB) options have been reorganized into a single
+  attribute set, `services.xserver.xkb`. Specifically,
+  `services.xserver.layout` is `services.xserver.xkb.layout` now,
+  `services.xserver.extraLayouts` is `services.xserver.xkb.extraLayouts` now,
+  `services.xserver.xkbModel` is `services.xserver.xkb.model` now,
+  `services.xserver.xkbOptions` is `services.xserver.xkb.options` now ,
+  `services.xserver.xkbVariant` is `services.xserver.xkb.variant` now, and
+  `services.xserver.xkbDir` is `services.xserver.xkb.dir` now.

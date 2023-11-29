@@ -1,1 +1,3 @@
-- The `services.vaultwarden.config` option default value was changed to make Vaultwarden only listen on localhost, following the [secure defaults for most NixOS services](https://github.com/NixOS/nixpkgs/issues/100192).
+- The `services.vaultwarden.config` option default value was changed to make
+  Vaultwarden only listen on localhost, following the [secure defaults for most
+  NixOS services](https://github.com/NixOS/nixpkgs/issues/100192).

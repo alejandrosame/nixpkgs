@@ -1,1 +1,1 @@
-- The `waagent` service does provisioning now
+- The `waagent` service does provisioning now.

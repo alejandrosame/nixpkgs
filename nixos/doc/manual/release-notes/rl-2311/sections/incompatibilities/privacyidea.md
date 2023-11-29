@@ -1,1 +1,3 @@
-- `privacyidea` (and the corresponding `privacyidea-ldap-proxy`) has been removed from nixpkgs because it has severely outdated dependencies that became unmaintainable with nixpkgs' python package-set.
+- `privacyidea` (and the corresponding `privacyidea-ldap-proxy`) has been
+  removed from nixpkgs because it has severely outdated dependencies that
+  became unmaintainable with nixpkgs' python package-set.

@@ -1,1 +1,5 @@
-- `pict-rs` was upgraded from 0.3 to 0.4 and contains an incompatible database & configuration change. To upgrade on systems with `stateVersion = "23.05";` or older follow the migration steps from https://git.asonix.dog/asonix/pict-rs#user-content-0-3-to-0-4-migration-guide and set `services.pict-rs.package = pkgs.pict-rs;`.
+- `pict-rs` was upgraded from v0.3 to v0.4 and contains an incompatible database
+  & configuration change. To upgrade on systems with `stateVersion = "23.05";`
+  or older follow the migration steps from
+  https://git.asonix.dog/asonix/pict-rs#user-content-0-3-to-0-4-migration-guide
+  and set `services.pict-rs.package = pkgs.pict-rs;`.

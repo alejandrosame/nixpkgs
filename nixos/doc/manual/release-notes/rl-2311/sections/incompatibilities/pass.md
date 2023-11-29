@@ -1,1 +1,2 @@
-- `pass` now does not contain `password-store.el`.  Users should get `password-store.el` from Emacs lisp package set `emacs.pkgs.password-store`.
+- `pass` now does not contain `password-store.el`. Users should get
+  `password-store.el` from Emacs lisp package set `emacs.pkgs.password-store`.

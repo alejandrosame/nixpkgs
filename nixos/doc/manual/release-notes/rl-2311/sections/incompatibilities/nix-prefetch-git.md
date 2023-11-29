@@ -1,1 +1,2 @@
-- `nix-prefetch-git` now ignores global and user git config, to improve reproducibility.
+- `nix-prefetch-git` now ignores global and user git config, to improve
+  reproducibility.

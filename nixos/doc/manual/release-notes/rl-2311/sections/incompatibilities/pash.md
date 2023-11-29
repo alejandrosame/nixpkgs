@@ -1,1 +1,2 @@
-- Package `pash` was removed due to being archived upstream. Use `powershell` as an alternative.
+- Package `pash` was removed due to being archived upstream. Use `powershell`
+  as an alternative.
