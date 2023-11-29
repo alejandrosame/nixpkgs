@@ -90,8 +90,7 @@ Module system:
 - Options in the `options` module argument now have the `declarationPositions`
   attribute containing the position where the option was declared: ``` $ nix
   repl -f '<nixpkgs/nixos>' [...] nix-repl> :p
-  options.environment.systemPackages.declarationPositions [ { column = 7; file
-  =
+  options.environment.systemPackages.declarationPositions [ { column = 7; file =
   "/nix/store/vm9zf9wvfd628cchj0hdij1g4hzjrcz9-source/nixos/modules/config/system-path.nix";
   line = 62; } ] ``` Not to be confused with `definitionsWithLocations`, which
   is the same but for option _definitions_.
