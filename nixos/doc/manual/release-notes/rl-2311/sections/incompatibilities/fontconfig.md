@@ -1,1 +1,5 @@
-- `fontconfig` defaults to using greyscale antialiasing now. Previously subpixel antialiasing was used because of a [recommendation from one of the downstreams](https://gitlab.freedesktop.org/fontconfig/fontconfig/-/issues/337). You can change this value by configuring [](#opt-fonts.fontconfig.subpixel.rgba) accordingly.
+- `fontconfig` defaults to using greyscale antialiasing now. Previously
+  subpixel antialiasing was used because of a [recommendation from one of the
+  downstreams](https://gitlab.freedesktop.org/fontconfig/fontconfig/-/issues/337).
+  You can change this value by configuring
+  [](#opt-fonts.fontconfig.subpixel.rgba) accordingly.

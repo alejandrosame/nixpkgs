@@ -1,4 +1,5 @@
-- CoreDNS may be built with external plugins now. This may be done by overriding `externalPlugins` and `vendorHash` arguments like this:
+- CoreDNS may be built with external plugins now. This may be done by
+  overriding `externalPlugins` and `vendorHash` arguments like this:
 
   ```
   services.coredns = {
@@ -12,6 +13,8 @@
   };
   ```
 
-  To get the necessary SRI hash, set `vendorHash = "";`. The build will fail and produce the correct `vendorHash` in the error message.
+  To get the necessary SRI hash, set `vendorHash = "";`. The build will fail
+  and produce the correct `vendorHash` in the error message.
 
-  If you use this feature, updates to CoreDNS may require updating `vendorHash` by following these steps again.
+  If you use this feature, updates to CoreDNS may require updating `vendorHash`
+  by following these steps again.

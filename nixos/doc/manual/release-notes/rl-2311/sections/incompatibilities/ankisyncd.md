@@ -1,3 +1,16 @@
-- The module [services.ankisyncd](#opt-services.ankisyncd.package) has been switched to [anki-sync-server-rs](https://github.com/ankicommunity/anki-sync-server-rs). The former version written in Python was difficult to update, did not receive updates in a while, and did not support recent versions of Anki.
-Unfortunately all servers supporting new clients do not support the older sync protocol that was used in the old server. This includes newer version of anki-sync-server, Anki's built in sync server and this new Rust package. Thus old clients will also need updating. In particular nixpkgs's Anki package  is also being updated in this release.
-The module update takes care of the new config syntax. The data itself (i.e. user login and card information) is compatible. Thus users of the module will be able to simply log in again after updating both client and server without any extra action needed to be taken.
+- The module [services.ankisyncd](#opt-services.ankisyncd.package) has been
+  switched to
+  [anki-sync-server-rs](https://github.com/ankicommunity/anki-sync-server-rs).
+  The former version written in Python was difficult to update, did not receive
+  updates in a while, and did not support recent versions of Anki.
+
+  Unfortunately all servers supporting new clients do not support the older
+  sync protocol that was used in the old server. This includes newer version of
+  anki-sync-server, Anki's built in sync server and this new Rust package. Thus
+  old clients will also need updating. In particular nixpkgs's Anki package is
+  also being updated in this release.
+
+  The module update takes care of the new config syntax. The data itself (i.e.
+  user login and card information) is compatible. Thus users of the module will
+  be able to simply log in again after updating both client and server without
+  any extra action needed to be taken.

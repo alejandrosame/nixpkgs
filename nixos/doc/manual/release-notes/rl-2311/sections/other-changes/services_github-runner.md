@@ -1,1 +1,6 @@
-- `services.github-runner` and `services.github-runners.<name>` gained the option `nodeRuntimes`. This option defaults to `[ "node20" ]`.  I.e., the service supports Node.js 20 GitHub Actions only. The list of Node.js versions accepted by `nodeRuntimes` tracks the versions the upstream GitHub Actions runner supports. Refer to [PR #249103](https://github.com/NixOS/nixpkgs/pull/249103) for details.
+- `services.github-runner` and `services.github-runners.<name>` gained the
+  option `nodeRuntimes`. This option defaults to `[ "node20" ]`.  I.e., the
+  service supports Node.js 20 GitHub Actions only. The list of Node.js versions
+  accepted by `nodeRuntimes` tracks the versions the upstream GitHub Actions
+  runner supports. Refer to [PR
+  #249103](https://github.com/NixOS/nixpkgs/pull/249103) for details.

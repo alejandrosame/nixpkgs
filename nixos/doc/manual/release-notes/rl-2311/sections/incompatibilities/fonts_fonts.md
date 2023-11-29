@@ -1,1 +1,2 @@
-- The `fonts.fonts` and `fonts.enableDefaultFonts` options have been renamed to `fonts.packages` and `fonts.enableDefaultPackages` respectively.
+- The `fonts.fonts` and `fonts.enableDefaultFonts` options have been renamed to
+  `fonts.packages` and `fonts.enableDefaultPackages` respectively.

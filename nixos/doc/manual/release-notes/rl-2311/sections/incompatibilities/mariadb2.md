@@ -1,1 +1,4 @@
-- The MariaDB C client library was upgraded from 3.2.x to 3.3.x. It is recommended to review the [upstream release notes](https://mariadb.com/kb/en/mariadb-connector-c-33-release-notes/).
+- The MariaDB C client library was upgraded from v3.2.x to v3.3.x. Refer to the
+  [upstream release
+  notes](https://mariadb.com/kb/en/mariadb-connector-c-33-release-notes/) for
+  more details.

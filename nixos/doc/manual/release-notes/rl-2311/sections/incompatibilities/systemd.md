@@ -1,6 +1,7 @@
-- [systemd](https://systemd.io) has been updated from v253 to v254, see [the
-  release notes](https://github.com/systemd/systemd/blob/v254/NEWS#L3-L659) for
-  more information on the changes.
+- [systemd](https://systemd.io) has been updated from v253 to v254, refer to
+  [the release
+  notes](https://github.com/systemd/systemd/blob/v254/NEWS#L3-L659) for more
+  details.
     - `boot.resumeDevice` **must be specified** when hibernating if not in EFI
       mode.
     - systemd may warn your system about the permissions of your ESP partition
