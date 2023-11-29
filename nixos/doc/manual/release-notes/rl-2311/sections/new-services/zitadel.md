@@ -1,1 +1,2 @@
-- [ZITADEL](https://zitadel.com), a turnkey identity and access management platform. Available as [services.zitadel](#opt-services.zitadel.enable).
+- [ZITADEL](https://zitadel.com), a turnkey identity and access management
+  platform. Available as [services.zitadel](#opt-services.zitadel.enable).

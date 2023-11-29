@@ -1,1 +1,2 @@
-- [pgBouncer](https://www.pgbouncer.org), a PostgreSQL connection pooler. Available as [services.pgbouncer](#opt-services.pgbouncer.enable).
+- [pgBouncer](https://www.pgbouncer.org), a PostgreSQL connection pooler.
+  Available as [services.pgbouncer](#opt-services.pgbouncer.enable).

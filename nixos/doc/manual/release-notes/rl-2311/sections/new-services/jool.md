@@ -1,1 +1,3 @@
-- [Jool](https://nicmx.github.io/Jool/en/index.html), a kernelspace NAT64 and SIIT implementation providing translation between IPv4 and IPv6. Available as [networking.jool.enable](#opt-networking.jool.enable).
+- [Jool](https://nicmx.github.io/Jool/en/index.html), a kernelspace NAT64 and
+  SIIT implementation providing translation between IPv4 and IPv6. Available as
+  [networking.jool.enable](#opt-networking.jool.enable).

@@ -1,1 +1,4 @@
-- Meilisearch was updated from 1.3.1 to 1.5.0. The update has breaking changes about backslashes and filtering. See the [release announcement](https://blog.meilisearch.com/v1-4-release/) for more information.
+- Meilisearch was updated from v1.3.1 to v1.5.0. The update has breaking
+  changes about backslashes and filtering. Refer to the [release
+  announcement](https://blog.meilisearch.com/v1-4-release/) for more
+  details.

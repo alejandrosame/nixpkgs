@@ -1,2 +1,5 @@
-- `linuxPackages_testing_bcachefs` is now soft-deprecated by `linuxPackages_testing`.
-  - Please consider changing your NixOS configuration's `boot.kernelPackages` to `linuxPackages_testing` until a stable kernel with bcachefs support is released.
+- `linuxPackages_testing_bcachefs` is now soft-deprecated by
+  `linuxPackages_testing`.
+  - Please consider changing your NixOS configuration's `boot.kernelPackages`
+    to `linuxPackages_testing` until a stable kernel with bcachefs support is
+    released.

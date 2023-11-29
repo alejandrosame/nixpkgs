@@ -1,1 +1,3 @@
-- [Prometheus MySQL exporter](https://github.com/prometheus/mysqld_exporter), a MySQL server exporter for Prometheus. Available as [services.prometheus.exporters.mysqld](#opt-services.prometheus.exporters.mysqld.enable).
+- [Prometheus MySQL exporter](https://github.com/prometheus/mysqld_exporter), a
+  MySQL server exporter for Prometheus. Available as
+  [services.prometheus.exporters.mysqld](#opt-services.prometheus.exporters.mysqld.enable).
