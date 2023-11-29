@@ -1,1 +1,3 @@
-- [systemd-sysupdate](https://www.freedesktop.org/software/systemd/man/systemd-sysupdate.html), atomically updates the host OS, container images, portable service images or other sources. Available as [systemd.sysupdate](opt-systemd.sysupdate).
+- [systemd-sysupdate](https://www.freedesktop.org/software/systemd/man/systemd-sysupdate.html),
+  atomically updates the host OS, container images, portable service images or
+  other sources. Available as [systemd.sysupdate](opt-systemd.sysupdate).

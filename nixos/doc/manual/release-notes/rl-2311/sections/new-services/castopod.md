@@ -1,1 +1,3 @@
-- [Castopod](https://castopod.org/), an open-source hosting platform made for podcasters who want to engage and interact with their audience. Available as [services.castopod](#opt-services.castopod.enable).
+- [Castopod](https://castopod.org/), an open-source hosting platform made for
+  podcasters who want to engage and interact with their audience. Available as
+  [services.castopod](#opt-services.castopod.enable).

@@ -1,1 +1,2 @@
-- [river](https://github.com/riverwm/river), A dynamic tiling wayland compositor. Available as [programs.river](#opt-programs.river.enable).
+- [river](https://github.com/riverwm/river), A dynamic tiling wayland
+  compositor. Available as [programs.river](#opt-programs.river.enable).

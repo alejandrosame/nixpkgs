@@ -1,1 +1,3 @@
-- [MCHPRS](https://github.com/MCHPR/MCHPRS), a multithreaded Minecraft server built for redstone. Available as [services.mchprs](#opt-services.mchprs.enable).
+- [MCHPRS](https://github.com/MCHPR/MCHPRS), a multithreaded Minecraft server
+  built for redstone. Available as
+  [services.mchprs](#opt-services.mchprs.enable).

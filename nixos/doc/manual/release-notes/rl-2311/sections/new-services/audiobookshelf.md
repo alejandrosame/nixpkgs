@@ -1,1 +1,3 @@
-- [audiobookshelf](https://github.com/advplyr/audiobookshelf/), a self-hosted audiobook and podcast server. Available as [services.audiobookshelf](#opt-services.audiobookshelf.enable).
+- [audiobookshelf](https://github.com/advplyr/audiobookshelf/), a self-hosted
+  audiobook and podcast server. Available as
+  [services.audiobookshelf](#opt-services.audiobookshelf.enable).

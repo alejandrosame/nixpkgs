@@ -1,1 +1,3 @@
-- [ebusd](https://ebusd.eu), a daemon for handling communication with eBUS devices connected to a 2-wire bus system ("energy bus" used by numerous heating systems). Available as [services.ebusd](#opt-services.ebusd.enable).
+- [ebusd](https://ebusd.eu), a daemon for handling communication with eBUS
+  devices connected to a 2-wire bus system ("energy bus" used by numerous
+  heating systems). Available as [services.ebusd](#opt-services.ebusd.enable).
