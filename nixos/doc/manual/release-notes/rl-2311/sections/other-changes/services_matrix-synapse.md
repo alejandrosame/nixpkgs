@@ -1,1 +1,6 @@
-- `services.matrix-synapse` has new options to configure worker processes for matrix-synapse using [`services.matrix-synapse.workers`](#opt-services.matrix-synapse.workers). Configuring a local redis server using [`services.matrix-synapse.configureRedisLocally`](#opt-services.matrix-synapse.configureRedisLocally) is also possible now.
+- `services.matrix-synapse` has new options to configure worker processes for
+  matrix-synapse using
+  [`services.matrix-synapse.workers`](#opt-services.matrix-synapse.workers).
+  Configuring a local redis server using
+  [`services.matrix-synapse.configureRedisLocally`](#opt-services.matrix-synapse.configureRedisLocally)
+  is also possible now.

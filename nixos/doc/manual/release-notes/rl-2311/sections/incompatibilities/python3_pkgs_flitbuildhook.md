@@ -1,1 +1,2 @@
-- `python3.pkgs.flitBuildHook` has been removed. Use `flit-core` and `format = "pyproject"` instead.
+- `python3.pkgs.flitBuildHook` has been removed. Use `flit-core` and `format =
+  "pyproject"` instead.

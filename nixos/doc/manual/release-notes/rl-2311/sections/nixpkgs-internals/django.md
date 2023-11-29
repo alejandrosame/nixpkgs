@@ -1,4 +1,4 @@
-- The `django` alias in the python package set was upgraded to Django 4.x.
+- The `django` alias in the python package set was upgraded to Django v4.x.
   Applications that consume Django should always pin their python environment
   to a compatible major version, so they can move at their own pace.
 

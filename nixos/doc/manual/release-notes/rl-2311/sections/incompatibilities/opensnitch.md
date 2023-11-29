@@ -1,1 +1,4 @@
-- The application firewall `opensnitch` uses the process monitor method eBPF as default now. This is recommended by upstream. The method may be changed with the setting [services.opensnitch.settings.ProcMonitorMethod](#opt-services.opensnitch.settings.ProcMonitorMethod).
+- The application firewall `opensnitch` uses the process monitor method eBPF as
+  default now. This is recommended by upstream. The method may be changed with
+  the setting
+  [services.opensnitch.settings.ProcMonitorMethod](#opt-services.opensnitch.settings.ProcMonitorMethod).

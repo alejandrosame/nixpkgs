@@ -1,1 +1,2 @@
-- `jq` was updated to 1.7. This is its [first release in 5 years](https://github.com/jqlang/jq/releases/tag/jq-1.7).
+- `jq` was updated to v1.7. This is its [first release in 5
+  years](https://github.com/jqlang/jq/releases/tag/jq-1.7).

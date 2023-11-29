@@ -1,1 +1,2 @@
-- `postgresql_11` has been removed since it'll stop receiving fixes on November 9th 2023.
+- `postgresql_11` has been removed since it'll stop receiving fixes on November
+  9th 2023.

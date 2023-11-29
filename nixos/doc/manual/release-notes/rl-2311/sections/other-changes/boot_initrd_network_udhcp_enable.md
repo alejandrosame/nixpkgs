@@ -1,1 +1,2 @@
-- The `boot.initrd.network.udhcp.enable` option allows control over DHCP during Stage 1 regardless of what `networking.useDHCP` is set to.
+- The `boot.initrd.network.udhcp.enable` option allows control over DHCP during
+  Stage 1 regardless of what `networking.useDHCP` is set to.

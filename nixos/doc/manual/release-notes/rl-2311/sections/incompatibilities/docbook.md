@@ -1,1 +1,2 @@
-- DocBook option documentation is no longer supported, all module documentation now uses Markdown.
+- DocBook option documentation is no longer supported, all module documentation
+  now uses Markdown.

@@ -1,1 +1,4 @@
-- The `electron` packages now places its application files in `$out/libexec/electron` instead of `$out/lib/electron`. Packages using electron-builder will fail to build and need to be adjusted by changing `lib` to `libexec`.
+- The `electron` packages places its application files in
+  `$out/libexec/electron` instead of `$out/lib/electron` now. Packages using
+  electron-builder will fail to build and need to be adjusted by changing `lib`
+  to `libexec`.
