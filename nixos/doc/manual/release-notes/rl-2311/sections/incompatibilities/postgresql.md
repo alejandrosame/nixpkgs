@@ -1,1 +1,1 @@
-- PostgreSQL now defaults to major version 15.
+- PostgreSQL now defaults to major v15.
