@@ -14,7 +14,7 @@
     }
     rec {
       id = "toc";
-      title = "## Table of contents {#sec-release-23.11-toc}";
+      title = "## Table of Contents {#sec-release-23.11-toc}";
       meta = import (./. + "/${id}.nix");
     }
     rec {
@@ -44,12 +44,12 @@
     }
     rec {
       id = "nixpkgs-lib";
-      title = "### Nixpkgs library changes {#sec-release-23.11-nixpkgs-lib}";
+      title = "### Nixpkgs Library Changes {#sec-release-23.11-nixpkgs-lib}";
       meta = import (./. + "/${id}.nix");
     }
     rec {
       id = "nixpkgs-internals";
-      title = "### Nixpkgs internals {#sec-release-23.11-nixpkgs-internals}";
+      title = "### Nixpkgs Internals {#sec-release-23.11-nixpkgs-internals}";
       meta = import (./. + "/${id}.nix");
     }
   ];

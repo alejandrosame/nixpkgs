@@ -1,4 +1,4 @@
-#### Breaking changes {#sec-release-23.11-lib-breaking}
+#### Breaking Changes {#sec-release-23.11-lib-breaking}
 
 - [`lib.lists.foldl'`](https://nixos.org/manual/nixpkgs/unstable#function-library-lib.lists.foldl-prime)
   now always evaluates the initial accumulator argument first.
@@ -10,7 +10,7 @@
   `lib.options.literalDocBook` has been removed after deprecation in 22.11.
 - `lib.types.string` is now fully deprecated and gives a warning when used.
 
-#### Additions and improvements {#sec-release-23.11-lib-additions-improvements}
+#### Additions and Improvements {#sec-release-23.11-lib-additions-improvements}
 
 - [`lib.fileset`](https://nixos.org/manual/nixpkgs/unstable#sec-functions-library-fileset):
   A new sub-library to select local files to use for sources,
