@@ -1,1 +1,3 @@
-- `fileSystems.<name>.autoFormat` now uses `systemd-makefs`, which does not accept formatting options. Therefore, `fileSystems.<name>.formatOptions` has been removed.
+- `fileSystems.<name>.autoFormat` now uses `systemd-makefs`, which does not
+  accept formatting options. Therefore, `fileSystems.<name>.formatOptions` has
+  been removed.

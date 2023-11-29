@@ -1,1 +1,2 @@
-- `writeTextFile` now requires `executable` to be boolean, values like `null` or `""` will now fail to evaluate.
+- `writeTextFile` requires `executable` to be boolean now, values like `null`
+  or `""` will fail to evaluate now.

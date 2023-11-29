@@ -1,1 +1,2 @@
-- JACK tools (`jack_*` except `jack_control`) have moved from the `jack2` package to `jack-example-tools`
+- JACK tools (`jack_*` except `jack_control`) have moved from the `jack2`
+  package to `jack-example-tools`.

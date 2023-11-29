@@ -1,1 +1,3 @@
-- `services.kea.{ctrl-agent,dhcp-ddns,dhcp,dhcp6}` now use separate runtime directories instead of `/run/kea` to work around the runtime directory being cleared on service start.
+- `services.kea.{ctrl-agent,dhcp-ddns,dhcp,dhcp6}` now use separate runtime
+  directories instead of `/run/kea` to work around the runtime directory being
+  cleared on service start.

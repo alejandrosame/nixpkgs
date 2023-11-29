@@ -1,1 +1,4 @@
-- GraalPy (`graalCEPackages.graalpy`), TruffleRuby (`graalCEPackages.truffleruby`), GraalJS (`graalCEPackages.graaljs`) and GraalNodeJS (`grallCEPackages.graalnodejs`) are now indepedent from the main GraalVM derivation.
+- GraalPy (`graalCEPackages.graalpy`), TruffleRuby
+  (`graalCEPackages.truffleruby`), GraalJS (`graalCEPackages.graaljs`) and
+  GraalNodeJS (`grallCEPackages.graalnodejs`) are now indepedent from the main
+  GraalVM derivation.

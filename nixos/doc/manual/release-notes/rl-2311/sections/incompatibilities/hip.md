@@ -1,1 +1,2 @@
-- `hip`, `rocm-opencl-runtime`, `rocm-opencl-icd`, and `rocclr` have been combined into `rocmPackages.clr`.
+- `hip`, `rocm-opencl-runtime`, `rocm-opencl-icd`, and `rocclr` have been
+  combined into `rocmPackages.clr`.

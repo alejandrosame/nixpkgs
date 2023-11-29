@@ -1,1 +1,1 @@
-- `odoo` now defaults to 16, updated from 15.
+- `odoo` defaults to v16 now, updated from v15.

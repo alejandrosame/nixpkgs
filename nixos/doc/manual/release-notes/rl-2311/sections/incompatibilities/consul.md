@@ -1,1 +1,4 @@
-- `consul` has been updated to `1.16.0`. See the [release note](https://github.com/hashicorp/consul/releases/tag/v1.16.0) for more details. Once a new Consul version has started and upgraded its data directory, it generally cannot be downgraded to the previous version.
+- `consul` has been updated to v1.16.0. Refer to the [release
+  note](https://github.com/hashicorp/consul/releases/tag/v1.16.0) for more
+  details. Once a new Consul version has started and upgraded it's data
+  directory, it generally cannot be downgraded to the previous version.

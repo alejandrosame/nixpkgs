@@ -1,1 +1,5 @@
-- `mariadb` now defaults to `mariadb_1011` instead of `mariadb_106`, meaning the default version was upgraded from 10.6.x to 10.11.x. See the [upgrade notes](https://mariadb.com/kb/en/upgrading-from-mariadb-10-6-to-mariadb-10-11/) for potential issues.
+- `mariadb` now defaults to `mariadb_1011` instead of `mariadb_106`, meaning
+  the default version was upgraded from v10.6.x to v10.11.x. Refer to the
+  [upgrade
+  notes](https://mariadb.com/kb/en/upgrading-from-mariadb-10-6-to-mariadb-10-11/)
+  for potential issues.

@@ -1,1 +1,1 @@
-- PHP now defaults to PHP 8.2, updated from 8.1.
+- PHP defaults to PHP 8.2 now, updated from v8.1.
