@@ -124,6 +124,33 @@ in pkgs.stdenv.mkDerivation {
 
     cp -t out ./style.css ./anchor.min.js ./anchor-use.js
 
+    # Collect facts
+
+    # Inject facts
+    (
+      # Bash inputs
+      SECTION=./languages-frameworks/python.section.md
+      FACT_ID=python-interpreter-table
+      FACT=./doc-support/inject-facts/facts/$FACT_ID.md
+
+      # Setup
+      tempfile=$(mktemp)
+
+      # TODO:Don't proceed if the fact isn't found
+      export LINE=$(grep -n -m 1 "<!-- FACT $FACT_ID -->" $SECTION | cut -f1 -d ":")
+      head --lines $(($LINE - 1)) $SECTION >> $tempfile
+      echo -en '\n' >> $tempfile # Padding
+      cat $FACT >> $tempfile
+      echo -en '\n' >> $tempfile # Padding
+      tail --lines +$(($LINE + 1)) $SECTION >> $tempfile
+      cp $tempfile $SECTION
+
+      # Cleanup
+      rm $tempfile
+      head --lines 30 $SECTION
+    )
+
+    # Render manual
     nixos-render-docs manual html \
       --manpage-urls ./manpage-urls.json \
       --revision ${pkgs.lib.trivial.revisionWithDefault (pkgs.rev or "master")} \
