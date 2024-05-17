@@ -5,6 +5,11 @@ let
 
   common = import ./common.nix;
 
+  # Collect facts to be injected in the markdown files.
+  # For now, we do the injection before running *nixos-render-docs* during the build phase.
+  factsDir = "facts";
+  facts = let in import ./doc-support/facts { inherit pkgs factsDir; };
+
   lib-docs = import ./doc-support/lib-function-docs.nix {
     inherit pkgs nixpkgs;
     libsets = [
@@ -124,29 +129,18 @@ in pkgs.stdenv.mkDerivation {
 
     cp -t out ./style.css ./anchor.min.js ./anchor-use.js
 
-    # Collect facts
-
     # Inject facts
     (
       # Bash inputs
       SECTION=./languages-frameworks/python.section.md
+      FACTS_DIR="${facts.out}/${factsDir}"
       FACT_ID=python-interpreter-table
       FACT=./doc-support/inject-facts/facts/$FACT_ID.md
+      FACT_REPLACEMENT_STRING="<!-- FACT $FACT_ID -->"
+      CONTENT="$(cat "$FACTS_DIR/$FACT_ID.md")"
 
-      # Setup
-      tempfile=$(mktemp)
+      substituteInPlace $SECTION --replace-fail "$FACT_REPLACEMENT_STRING" "$CONTENT"
 
-      # TODO:Don't proceed if the fact isn't found
-      export LINE=$(grep -n -m 1 "<!-- FACT $FACT_ID -->" $SECTION | cut -f1 -d ":")
-      head --lines $(($LINE - 1)) $SECTION >> $tempfile
-      echo -en '\n' >> $tempfile # Padding
-      cat $FACT >> $tempfile
-      echo -en '\n' >> $tempfile # Padding
-      tail --lines +$(($LINE + 1)) $SECTION >> $tempfile
-      cp $tempfile $SECTION
-
-      # Cleanup
-      rm $tempfile
       head --lines 30 $SECTION
     )
 
