@@ -2,7 +2,7 @@
 , stdenv
 , writeScriptBin
 # Configuration input
-, factsDir ? "facts"
+, outDir ? "facts"
 , factID
 }:
 let
@@ -13,7 +13,7 @@ in stdenv.mkDerivation {
   src = ./.;
   phases = [ "installPhase" ];
   installPhase = ''
-    dest="$out/${factsDir}"
+    dest="$out/${outDir}"
     mkdir -p "$dest"
 
     cp ${contentFile} $dest/${factID}.md
