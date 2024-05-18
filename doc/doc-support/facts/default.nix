@@ -8,41 +8,52 @@ let
   inherit (lib.strings) concatStringsSep;
   inherit (lib.lists) map;
 
+  renderFact = { id }: (pkgs.callPackage (./generators + "/${id}") { inherit id; });
+
   # We expect each fact generator to be contained in a folder whose name is the *FACT-ID*.
   facts = foldlAttrs
     # TODO: Typecheck that all attrset values are "directory".
     #       Alternatively, ignore anything but directories.
     (acc: id: _:
-      let
-        fact = (pkgs.callPackage (./generators + "/${id}") { inherit id; });
-      in
-      {
-        drvs = acc.drvs ++ [fact.drv];
-        targets = acc.drvs ++ [{ inherit id; inherit (fact) target drv; }];
-      })
-    { drvs = []; targets = []; } # acc
+      let fact = renderFact { inherit id; } // { inherit id; };
+      in acc ++ [ fact ])
+    [ ]
     (builtins.readDir ./generators);
 in {
-  # This derivation allows contributors to easily debug locally by
-  # running `nix-build . --attr collected` in this folder.
-  collected = pkgs.symlinkJoin { name = "documentation-facts-collected"; paths = facts.drvs; };
+  # Convenience function to render an individual fact.
+  # Call with:
+  #   `nix-build --expr '(import ./. {}).renderFact' --argstr "id" "<FACT-ID>"`
+  # Example:
+  #   `nix-build --expr '(import ./. {}).renderFact' --argstr "id" "python-interpreter-table"`
+  inherit renderFact;
+
+  # Convenience derivation to check the rendering the collection of rendered facts.
+  # Call with:
+  #    `nix-build . --attr collected-facts`.
+  # The files are collected via `pkgs.runCommand` because `pkgs.symlinkJoin` only works with folders
+  collected-facts = let
+    symlinkFn = fact: "ln -s ${fact.drv} $out/${fact.id}.md";
+  in
+    pkgs.runCommand "collected-facts" { }
+      (concatStringsSep
+        "\n"
+        (["mkdir $out"] ++ (map symlinkFn facts)));
 
   # Attribute to be used during the build phase of documentation rendering.
-  # Check value with
+  # Call with:
   #   `nix-instantiate --eval --expr '(import ./. {})' --attr substituteFactsInPlacePrefix`
   substituteFactsInPlacePrefix = let
-    file = fact: "${fact.drv.out}/${fact.id}.md";
     replacementString = fact: "<!-- FACT ${fact.id} -->";
 
-    substituteInPlaceFact = fact: ''
+    substituteInPlaceFactFn = fact: ''
       substituteInPlace \
         ${fact.target} \
         --replace-fail \
         "${replacementString fact}" \
-        "$(cat ${(file fact)})"
+        "$(cat ${fact.drv})"
     '';
   in
     concatStringsSep
       "\n"
-      (map substituteInPlaceFact facts.targets);
+      (map substituteInPlaceFactFn facts);
 }
