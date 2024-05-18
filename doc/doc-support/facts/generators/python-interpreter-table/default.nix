@@ -1,21 +1,26 @@
+# NOTE: Alternatively, the drv can be simply the files,
+# this would simplify the generation of the bash injector,
+# but makes it hard to explore the facts.
 { lib
 , stdenv
 , writeScriptBin
 # Configuration input
-, outDir ? "facts"
-, factID
+, id
 }:
 let
   inherit (lib.strings) readFile;
   contentFile = (./. + "/content.md");
-in stdenv.mkDerivation {
-  name = "FACT_${factID}";
-  src = ./.;
-  phases = [ "installPhase" ];
-  installPhase = ''
-    dest="$out/${outDir}"
-    mkdir -p "$dest"
+in {
+  drv = stdenv.mkDerivation {
+    name = "FACT_${id}";
+    src = ./.;
+    phases = [ "installPhase" ];
+    installPhase = ''
+      dest="$out"
+      mkdir -p "$dest"
 
-    cp ${contentFile} $dest/${factID}.md
-  '';
+      cp ${contentFile} $dest/${id}.md
+    '';
+  };
+  target = "./languages-frameworks/python.section.md";
 }

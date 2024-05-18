@@ -7,18 +7,9 @@ let
 
   # Collect facts to be injected in the markdown files.
   # For now, we do the injection before running *nixos-render-docs* during the build phase.
-  facts = let
-    outDir = "facts";
-    drv = import ./doc-support/facts { inherit pkgs outDir; };
-    factID = "python-interpreter-table";
-  in {
-    inherit drv;
-    file = factID: "${drv.out}/${outDir}/${factID}.md";
-    test.fact.id = factID;
-    test.fact.section = "./languages-frameworks/python.section.md";
-    # TODO: rename to fact placeholder
-    test.fact.replacementString = "<!-- FACT ${factID} -->";
-  };
+  # alejandrosame: how to reuse substituteInPlace (stdenv shell functions and utilities)
+  #                with writeShellApplication, writeScriptBin, etc
+  inherit (import ./doc-support/facts { inherit pkgs; }) substituteFactsInPlacePrefix;
 
   lib-docs = import ./doc-support/lib-function-docs.nix {
     inherit pkgs nixpkgs;
@@ -120,7 +111,7 @@ in pkgs.stdenv.mkDerivation {
     ln -s ${optionsDoc.optionsJSON}/share/doc/nixos/options.json ./config-options.json
   '';
 
-  buildPhase = ''
+  buildPhase = substituteFactsInPlacePrefix + "\n" + ''
     cat \
       ./functions/library.md.in \
       ${lib-docs}/index.md \
@@ -139,17 +130,6 @@ in pkgs.stdenv.mkDerivation {
 
     cp -t out ./style.css ./anchor.min.js ./anchor-use.js
 
-    # Inject facts
-    (
-      # Bash inputs
-      SECTION=${facts.test.fact.section}
-      FACT_REPLACEMENT_STRING="${facts.test.fact.replacementString}"
-      CONTENT="$(cat ${(facts.file facts.test.fact.id)})"
-
-      substituteInPlace $SECTION --replace-fail "$FACT_REPLACEMENT_STRING" "$CONTENT"
-    )
-
-    # Render manual
     nixos-render-docs manual html \
       --manpage-urls ./manpage-urls.json \
       --revision ${pkgs.lib.trivial.revisionWithDefault (pkgs.rev or "master")} \
