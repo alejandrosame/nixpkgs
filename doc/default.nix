@@ -6,9 +6,7 @@ let
   common = import ./common.nix;
 
   # Collect facts to be injected inside the documentation markdown files.
-  # For now, we do the injection before running *nixos-render-docs* during the build phase as a bash prefix.
-  # alejandrosame: how to reuse substituteInPlace (stdenv shell functions and utilities)
-  #                with writeShellApplication, writeScriptBin, etc
+  # For now, we do the injection before running *nixos-render-docs* as a bash prefix of `buildPhase`.
   inherit (import ./doc-support/facts { inherit pkgs; }) substituteFactsInPlacePrefix;
 
   lib-docs = import ./doc-support/lib-function-docs.nix {

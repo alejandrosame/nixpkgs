@@ -6,6 +6,7 @@
 let
   contentFile = (./. + "/content.md");
 in {
+  inherit id;
   drv = runCommand "FACT_${id}.md" { inherit contentFile; } ''
     cp $contentFile $out
   '';
