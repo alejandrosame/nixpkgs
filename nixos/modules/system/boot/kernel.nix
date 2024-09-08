@@ -303,6 +303,9 @@ in
             "hid_logitech_hidpp" "hid_logitech_dj" "hid_microsoft" "hid_cherry"
             "hid_corsair"
 
+            "uas"
+            "thunderbolt"
+
           ] ++ optionals pkgs.stdenv.hostPlatform.isx86 [
             # Misc. x86 keyboard stuff.
             "pcips2" "atkbd" "i8042"
