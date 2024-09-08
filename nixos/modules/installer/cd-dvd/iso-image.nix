@@ -795,7 +795,7 @@ in
 
     fileSystems = config.lib.isoFileSystems;
 
-    boot.initrd.availableKernelModules = [ "squashfs" "iso9660" "uas" "overlay" ];
+    boot.initrd.availableKernelModules = [ "squashfs" "iso9660" "uas" "overlay" "thunderbolt" ];
 
     boot.initrd.kernelModules = [ "loop" "overlay" ];
 
